@@ -3,7 +3,7 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-     <h1>Type Script App </h1>
+     <h1>Redux </h1>
     </div>
   );
 }
