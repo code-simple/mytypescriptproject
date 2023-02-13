@@ -1,5 +1,5 @@
 import React from 'react';
-import { Person } from './Person';
+import { Person , Country} from './Person';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
      age={21}
      isMarried={true}
      friends={['Anna','Jessica','Sara','danny']}
+     country={Country.Brazil}
      />
     </div>
   );
