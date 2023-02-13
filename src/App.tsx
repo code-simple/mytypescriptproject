@@ -1,9 +1,16 @@
 import React from 'react';
+import { Person } from './Person';
 
 function App() {
   return (
     <div className="App">
-     <h1>Type Script App </h1>
+     <Person 
+     name="Imran"
+     email="imran@gmail.com"
+     age={21}
+     isMarried={true}
+     friends={['Anna','Jessica','Sara','danny']}
+     />
     </div>
   );
 }
